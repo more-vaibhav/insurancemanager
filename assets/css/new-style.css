@@ -1,0 +1,81 @@
+.bg-half-170 {
+  padding: 290px 0 60px 0 !important;
+}
+
+.form-card {
+  background: #fff !important;
+  border-radius: 10px !important;
+  padding: 3rem 3rem;
+}
+.icons {
+  height: 80px;
+  width: 80px;
+  line-height: 80px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: var(--bs-nav-pills-link-active-color);
+  background-color: #1ae5be;
+  min-width: 205px;
+}
+.video-border {
+  border: 0.2rem rgb(12, 12, 12) solid;
+  box-shadow: 0 20px 50px rgb(0 0 0 / 30%);
+}
+.slogan-card {
+  background: #fff;
+  border-radius: 18px;
+  border: #d8d8d8 1px solid;
+}
+.about-icn {
+  width: 90px;
+  height: 90px;
+  background: #0089d91a;
+  color: #0089d9;
+  border-radius: 20px;
+  padding: 1rem;
+}
+.clients-section {
+  position: relative;
+}
+.pattern-layer {
+  background-image: url(/assets/images/world-insurance.svg);
+  background-size: 1000px;
+  opacity: 0.15;
+}
+.clients-section .pattern-layer {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background-repeat: repeat-x;
+  animation: slide 100s linear infinite;
+  -webkit-animation: slide 100s linear infinite;
+}
+
+@keyframes slide {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 1920px 0;
+  }
+}
+.bg-darkblue {
+  background: #003478 !important;
+}
+.owl-carousel .item {
+  padding: 0.5rem 1rem;
+  background: #fff;
+  border-radius: 15px;
+}
+.cta-home {
+  margin-top: -85px;
+}
+.call-cta {
+  border-radius: 10px;
+  border: 1px #c5c5c5 dashed;
+}
